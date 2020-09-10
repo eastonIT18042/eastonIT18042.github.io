@@ -1,0 +1,144 @@
+html {height: 1080px; width: 1920px; overflow: hidden;}
+body {cursor: none;}
+a:hover {cursor: none;}
+a:active {cursor: none;}
+.parking-section {margin-bottom: 1rem !important;}
+.directory-section {margin-bottom: 1rem !important;}
+.departmentLocation {font-weight: bold; color: black;}
+.text-primary {color: #690102 !important;}
+.process {height: 394px;}
+.department-spec-title {margin-bottom: 1rem !important;}
+#testimonials-section .slide-text p, .body-text-style {color: black; font-size: 22px;}
+.title-below-padding {margin-bottom: 1.5rem;}
+.image-absolute-box .box {background: #690102;}
+.finance-section {padding: 13em 0;}
+.easton-title {margin-bottom: 1rem;}
+.calendar-link, .calendar-link:hover {font-weight: bold; color: #690102;}
+.nonloop-block-13 .owl-dots .owl-dot.active span {background-color: #690102;}
+.touch-home-screen {display: flex; align-items: center; justify-content: center; flex-direction: column; height: 1080px;}
+.touch-home-button {text-align: center;}
+.touch-home-button p {color: #690102; font-weight: bold; font-size: 40px;}
+.touch-home-image img {width: 600px;}
+.touch-begin-button {
+  	position: relative;
+	display: block;
+  	margin: 35px auto;
+  	padding: 20px 20px;
+  	box-shadow: 0 5px 0 0 #e9edee, 0 5px 0 2px #ccd2d2, 0 12px 20px 6px #d5dbdb;
+  	text-align: center;
+  	color: #690102;
+  	text-decoration: none;
+  	font-weight: bold;
+  	font-size: 24px;
+}
+.touch-begin-button:active {top: 5px; box-shadow: 0 1px 0 2px #ccd2d2, 0 7px 20px 6px #d5dbdb;}
+.touch-begin-button:hover {color: #690102;}
+@keyframes shake {
+  	from,
+  	to {
+    	transform: translate3d(0, 0, 0);
+  	}
+
+  	10%,
+  	30%,
+  	50%,
+  	70%,
+  	90% {
+    	transform: translate3d(-5px, 0, 0);
+  	}
+
+  	20%,
+  	40%,
+  	60%,
+  	80% {
+    	transform: translate3d(5px, 0, 0);
+  	}
+
+
+}
+.shake {
+ 	 animation-name: shake;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.delay-1s {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.animated.delay-2s {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.animated.delay-3s {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.animated.delay-4s {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.animated.delay-5s {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.animated.fast {
+  -webkit-animation-duration: 800ms;
+  animation-duration: 800ms;
+}
+
+.animated.faster {
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+}
+
+.animated.slow {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.animated.slower {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+@media (print), (prefers-reduced-motion) {
+  .animated {
+    -webkit-animation: unset !important;
+    animation: unset !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+}
+.easton-calendar {text-align: center;}
+#directory-table_wrapper {width: 1800px; margin: auto;}
+#directory-table_length, #directory-table_filter {display: none;}
+
+/* Leaflet Map */
+#mapid {height: 843px;}
+
+/* Google Translate */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+} 
+body {
+  top: 0px !important; 
+}
+#google_translate_element {
+  position: relative;
+  left: 400px;
+}
